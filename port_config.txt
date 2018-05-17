@@ -1,0 +1,15 @@
+Port config :
+
+
+eureka: 100*
+
+zuul:200*
+
+
+sidecar:  
+	python-sidecar: 3001
+
+
+
+
+service : start with 500*

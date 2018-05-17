@@ -1,0 +1,17 @@
+eureka:
+  overrides: 1
+  registerWithEureka: true
+  fetchRegistry: false
+  host: localhost
+  port: 1001
+  servicePath: '/eureka/apps/'
+  ssl: false
+  useDns: false
+  fetchMetadata: false
+  preferIpAddress: false
+instance: 
+  app: nodejs-service
+  vipAddress: 'localhost'
+  port: 4001
+  dataCenterInfo:
+    name: myown

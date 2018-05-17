@@ -1,0 +1,10 @@
+package com.lee.remote;
+
+import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@FeignClient(name="netcoreservice-01")
+public interface NetcoreRemote {
+	@RequestMapping(value= "/order")
+	public String orders();
+}

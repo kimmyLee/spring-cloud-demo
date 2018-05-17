@@ -1,0 +1,11 @@
+spring.application.name=python-sidecar
+server.port=30001
+
+sidecar.port=30010
+
+sidecar.health-uri= http://localhost:${sidecar.port}/health
+
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds=10000
+
+eureka.client.service-url.defaultZone=http://localhost:1001/eureka
+

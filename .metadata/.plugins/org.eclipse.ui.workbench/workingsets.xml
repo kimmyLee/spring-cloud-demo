@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1526278642778_1" label="spring-cloud-parent" name="spring-cloud-parent">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-cloud-producer" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-cloud-eureka" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-cloud-zuul" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1526278280568_0" label="Window Working Set" name="Aggregate for window 1526278280568"/>
+</workingSetManager>
