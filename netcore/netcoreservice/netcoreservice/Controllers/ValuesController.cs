@@ -13,14 +13,7 @@ namespace netcoreservice.Controllers
         [HttpGet]
         public string Get()
         {
-            return "this value is from net core api";
-        }
-
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
+            return "Hello, this value from netcore-order01";
         }
 
         // POST api/values
